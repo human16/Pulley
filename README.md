@@ -9,6 +9,11 @@ Pulley is the free and open source alternative to climbing gear meant to measure
 
 This project uses a `Raspberry Pi Pico 2W` (Could possibly work with a `Raspberry Pi Pico W`, but was not tested) and a `Klau Crane Scale` (Link will be added in the future for a specific model).
 
+To verify you have the correct Raspberry Pi, you can look at the device itself and look for the silver rectangle as shown in this photo:
+
+<img width="282" height="300" alt="image" src="https://github.com/user-attachments/assets/d27c5296-72bf-4af0-a9dc-4612f6093d1d" />
+
+
 By creating a BLE (Bluetooth Low Energy) connection between a Kotlin app and the Raspberry Pi to create a data transfering connect, the Raspberry Pi, which is physically connected to the crane scale, will send over the weight data to the phone companion app
 
 ## Features
